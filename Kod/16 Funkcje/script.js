@@ -31,7 +31,7 @@ function showReturned() {
 showReturned();
 
 // nie działa przeładowanie metod, liczy się ostatnia definicja, potrzeba poda c co najmniej tyle parametrów co ostatanie definicja wymaga
-
+// inaczej undefined w (fragmencie) wyniku
 function f(p1,p2){
     console.log('Dwa parametry: ' + p1 + ', ' + p2);
 }

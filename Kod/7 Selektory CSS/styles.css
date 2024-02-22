@@ -30,6 +30,11 @@
 /*    border: 3px solid blue;*/
 /*}*/
 
-#box-two ~ div {
+/*#box-two ~ div {*/
+/*    border: 3px solid blue;*/
+/*}*/
+
+
+div {
     border: 3px solid blue;
 }

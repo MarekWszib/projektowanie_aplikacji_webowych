@@ -29,16 +29,16 @@ car.showDetails();
 // poprzez klasę
 
 class House {
-    constructor(windowsCount, doorsCount){
+    constructor(windowsCount, doorsCount) {
         this.windows = windowsCount;
         this.doors = doorsCount;
+    }
 
-        this.showDetails = function (){
-            console.log('House with ' + this.windows + ' windows and ' + this.doors + ' doors.')
-        }
+    showDetails = function () {
+        console.log('House with ' + this.windows + ' windows and ' + this.doors + ' doors.')
     }
 }
 
-let house = new House(10,2);
+let house = new House(10, 2);
 house.showDetails();
 

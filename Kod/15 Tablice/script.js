@@ -22,21 +22,21 @@ console.log('Trzeci element tablicy numericArray: ' + numericArray[2]);
 let n = numericArray[0];
 console.log('Pierwszy element tablicy numericArray: ' + n);
 
-console.log('Tablica numericArray po pierwszego drugiego elementu');
-numericArray[0] = 100;
+console.log('Tablica numericArray po modyfikacji drugiego elementu');
+numericArray[1] = 100;
 console.log(numericArray);
 console.log(n);
 
 console.log('--------');
 console.log('Element spoza zakresu');
-console.log(numericArray[-1]);
+console.log(numericArray[-1]); // zwróci: undefined
 
 console.log('--------');
 console.log('numericArray: ' + numericArray);
 console.log('Czy tablica zawiera 1?');
-console.log(numericArray.includes(1));
+console.log(numericArray.includes(1)); // true
 console.log('Czy tablica zawiera 33?');
-console.log(numericArray.includes(33));
+console.log(numericArray.includes(33)); //false
 
 console.log('-----------------');
 

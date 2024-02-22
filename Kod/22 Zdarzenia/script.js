@@ -27,7 +27,7 @@ window.onload = function () {
 
     boxContainer.addEventListener('click', function (e) {
         if (e.target.className.includes('box')) {
-            this.removeChild(e.target);
+            this.removeChild(e.target); // this odnosi się do boxContainer, bo w jego kontekscie jest ten listener
         }
     })
 

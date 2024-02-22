@@ -3,7 +3,7 @@ function checkDivisibilityByTwo(n) {
         console.log(n + ' to nie liczba!');
         return;
     }
-    if(n % 1 !== 1){
+    if (n % 1 !== 1) {
         console.log(n + ' nie jest liczbą całkowitą')
     }
     if (n % 2 === 0) {
@@ -28,14 +28,21 @@ checkDivisibilityByTwo(3.5);
 //
 // printNumbers();
 
-function printNumbers2() {
-    let array = [];
-    for (let i = 1; i < 101; i++) {
-        if (i % 3 === 0) {
-            array.push(i);
-        }
+// function printNumbers2() {
+//     let array = [];
+//     for (let i = 1; i < 101; i++) {
+//         if (i % 3 === 0) {
+//             array.push(i);
+//         }
+//     }
+//     console.log('Liczby podzielne przez 3: ' + array);
+// }
+// printNumbers2();
+
+function printNumbers3() {
+    for (let i = 3; i < 101; i += 3) {
+        console.log(i)
     }
-    console.log('Liczby podzielne przez 3: ' + array);
 }
 
-printNumbers2();
+printNumbers3();

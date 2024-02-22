@@ -13,6 +13,10 @@ window.onload = function () {
         if (validateForm()) {
             clearForm();
             window.alert('Poprawnie wysłany formularz.')
+            //tu taka zabawa z wstrzymaniem alertu by wyczysici formularz i ustawic hidden dla errorow
+            // setTimeout(function (){
+            //     window.alert('Poprawnie wysłany formularz.')
+            // },200)
         }
 
     });

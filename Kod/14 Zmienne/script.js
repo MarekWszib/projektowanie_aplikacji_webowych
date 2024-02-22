@@ -20,7 +20,7 @@ console.log(typeof numericVal)
 
 console.log('---------------')
 
-let sum = '1' + 1;
+let sum = '1' + 1; /*domyślnie + traktowany jako konkatenacja*/
 console.log(sum);
 
 let sum2 = 1 + '1';

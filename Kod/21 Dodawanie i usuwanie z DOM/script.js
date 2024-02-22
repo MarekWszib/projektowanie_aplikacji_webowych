@@ -6,7 +6,9 @@ window.onload = function () {
         document.getElementById('big-box').appendChild(newElement);
     }, 2000)
 
-    setTimeout(function (){
+    console.log("Sample text");
+
+    setTimeout(function () {
         let elementToRemove = document.getElementById('box-two');
         let parent = document.getElementById('big-box');
         parent.removeChild(elementToRemove);

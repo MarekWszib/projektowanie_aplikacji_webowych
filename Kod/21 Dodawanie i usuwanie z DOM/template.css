@@ -2,7 +2,7 @@ div {
     width: 100px;
     height: 100px;
     margin: 20px;
-    background: gray;
+    background: rgb(128, 128, 128);
     padding: 1px;
 }
 
